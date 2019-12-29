@@ -4,7 +4,7 @@ Script for getting all mentions in replies to a specific tweet.
 
 Note: I wrote this script in a hurry(for a one time thing) so didn't take much time to improve it (validate, handle errors, refactor...etc)
 ## Usage:
-1. Install required packages: **tweepy** and **searchtweets**
+1. Install required packages: **tweepy** and **searchtweets** using 
 `pip install PACKAGE_NAME`
 2. You'll need to have a Twitter developer account and an app created, refer to [Creating Twitter API Authentication Credentials section in this tutorial](https://realpython.com/twitter-bot-python-tweepy/#creating-twitter-api-authentication-credentials).
 2. Replace YOUR_APP_CONSUMER_KEY_HERE and YOUR_APP_CONSUMER_SECRET_HERE with your keys after you create your twitter app.
