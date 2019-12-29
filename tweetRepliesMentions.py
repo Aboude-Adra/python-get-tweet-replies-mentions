@@ -29,8 +29,8 @@ def main():
     userTweet = api.get_status(id=tweetId, tweet_mode="extended")
     screen_name = userTweet.author.screen_name
     queryText = "to:" + screen_name
-    query = {"query":queryText,"maxResults":500}
-    replies = searchtweets.collect_results(query,max_results=2500,result_stream_args=premium_search_args)
+    query = {"query":queryText,"maxResults":QUERY_MAX}
+    replies = searchtweets.collect_results(query,max_results=TOTAL_MAX,result_stream_args=premium_search_args)
     
     print("\nGetting Tweet comments...")
     comments = []
